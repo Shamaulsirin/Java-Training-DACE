@@ -1,0 +1,27 @@
+#String-Immutable.StringBuffer.StringBuilder
+when String object needs to be modified very often we should not use string object.
+
+#StringBuffer -java.lang -Mutable class -synchronised class
+We cannot make the string literal as mutable by using the StringBuffer.
+'StringBuffer sb ="abc";'
+
+#Synchronized
+A thread -safe mutable sequence of characters. A string buffer is like a String, but can be modified.
+
+
+*String Buffer is thread safe
+All methods are synchronized methods
+
+#Synchronizedmobile---->speaker
+
+playsong()--speaker
+Incomingcall()-->speaker
+-sequential action
+
+#StringBuilder - non synchronized class -java.lang
+-Mutable class -JDK 1.5->
+A mutable sequence of characters. This class provides an API compatible with StringBuffer, 
+but with no guarantee of synchronization.
+
+String Builder is not thread safe
+all methods are not synchronized methods
