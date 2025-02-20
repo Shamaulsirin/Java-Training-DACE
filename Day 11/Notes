@@ -1,0 +1,45 @@
+#EXCEPTION HANDLING
+
+1) What is Exception?
+Abnormal Behaviour in programs
+
+Abnormal events which stops the program abruptly.             
+
+100% Object Oriented Programming
+
+Primitive data types: int,float
+
+#EXCEPTION: whenever Exception occurs, the corresponding exception object will be thrown
+
+*Direct subclasses of Throwable class: Error,Exception
+
+Object class->Throwable class->exception
+
+
+#ERROR
+*Error is a subclass of Throwable that indicates serious problems 
+that a reasonable application should not try to catch.
+
+*The class Exception and its subclasses are a form of Throwable 
+that indicates conditions that a reasonable application might want to catch
+
+#EXCEPTION
+checked exception--->Compile Time Exception
+unchecked exception--->RuntimeException
+
+A throwable contains a snapshot of the execution stack of its thread at the time it was created.
+It can also contain a message string thst gives more information about the error.
+
+1) Stack-Line no
+2) Exception Name
+3) Message String
+
+
+#final
+*Access Modifier
+*final class - cannot be extended
+*final method - cannot be overridden
+*final variable - value cannot be changed
+
+#finlize()
+*To remove an object from the memory,garbage collector will call 
