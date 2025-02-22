@@ -1,0 +1,27 @@
+Any POJO class has following properties:
+
+*A java POJO class should be accessible to all the classes. It should be declared public.
+
+*the variable declared in java POJO class should in private
+
+*a JAVA pojo CLASS HOULD CONTAIN A DEFAULT CONSTRUCTOR.
+
+*A java POJO class must provide getter and setter which 
+should be declared public to outer world interact with it easily
+
+#class inside the regex
+1)Pattern - 
+compiled representation of regex
+2) Matcher - Interpretes the Pattern
+find,group,start,end
+3)PatternSyntaxException - Unchecked PatternSyntaxException
+
+i'll imagine we fell in love,
+i'll nap under moonlight skies with you,
+i think i'll picture us, you with the waves,
+the oceans colour on your face....
+I'll leave my heart with your hair
+so let me fly with you,
+Will You be Forever With Me...???
+
+
