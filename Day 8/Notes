@@ -1,0 +1,24 @@
+#Constructor
+*Constructor is useful for iniatializing object specific values 
+*It is created using the same name of our class name
+*Constructor area is getting called automatically when object/instance is created.
+*It doesn't have any return type
+*Default constructor is invisible
+*The default constructor will call the no-argument constructor of the superclass
+*The compiler automatically provides a no argument,default constructor for any class without constructos
+*Once we overload constructor,it becomes visible
+*Once we have visible constructor, there is no, no argument constructor
+*Constructor can be private just as private method, variable,  class, etc.,
+
+#Points to notice
+*Fields will be assigned with default values.(only we declare on global scope variable then the default value is this)
+byte,short,int,long:0
+float,double:0.0
+boolean:false
+char:''(empty)
+String:null
+
+#This keyword
+*It refer to the current object of same class
+*This can be used only inside non static object specific area ot context
+*inside static blocks,static methods we cannnot use this keyword

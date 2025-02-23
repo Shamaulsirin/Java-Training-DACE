@@ -2,9 +2,14 @@ import java.util.regex.*;
 
 public class RegixDemo {
   public static void main(String[] args) {
-    String s="Thuppaarkkuth Thuppaaya Thuppaakkith Thuppaarkkuth Thuppaaya Thooum Mazhai";
+    String s="Tamil is the oldest language ABC &*!@#$%^&*() 1234567890";
 
-    Pattern p=Pattern.compile("Thuppa");
+    Pattern p=Pattern.compile("tAMIL");
+    Pattern p=Pattern.compile("[a-z]");
+    Pattern p=Pattern.compile("[A-Z]");
+    Pattern p=Pattern.compile("[0-9]");
+
+
 
     Matcher m=p.matcher(s);
 

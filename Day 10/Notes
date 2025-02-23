@@ -1,0 +1,55 @@
+#Predicates
+Functional interface:abstract:boolean test(bject o)
+predicate is a function with only one argument and returns a boolean value.
+
+#Lambda Expressions
+A lambda expression is a short block of code which takes in parameters and returns a value.
+Lambda expressions are similar to methods,but they do not need a name 
+and they can be implemented in the body of the method.
+
+ANONYMOUS FUNCTIONS: Closures(method with no name)
+
+eg.
+public void display()
+{
+  System.out.println("hi");
+}
+
+STEPS:
+1.Remove method name
+public void()
+{
+  System.out.println("hi");
+}
+
+2.Remove return data type
+public()
+{
+  System.out.println("hi");
+}
+
+3.Remove access modifier
+()
+{
+  System.out.println("hi");
+}
+
+4.Add -> between () and {}
+()->
+{
+  System.out.println("hi");
+}
+
+Predicate:
+java.util.Predicate
+
+Predicates:Predicate -boolean -test()
+
+java.util.function --
+@FunctionalInterface -->Lambda Expression --apply()
+
+Predicates returns only boolean value
+Predicate accept only one arguments
+
+Function returns any type of value
+Function accept two argument.

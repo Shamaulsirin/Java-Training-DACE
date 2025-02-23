@@ -1,0 +1,66 @@
+#Multitasking
+ concurrently-[run multiple program at same time].or[system can do more than one program]
+
+ -process based two or more program concurrently.
+ -thread based - in one program,tasks concurrently.[called as job]
+
+ #Processes
+ A process has a self-contained execution environment.[vlc,msoffice]
+
+ Multitasking:
+ Multiple processes
+
+ Doing many task at same time using different processes
+ single thread - single task:job
+
+ JVM - Single process
+ Concurrently
+
+ Doing same things at same time inside a single process
+ Multithreading - light weight
+ Multithreading is a subset of multitasking
+
+ getbalance()
+ pay()
+ buy()
+ go()
+
+ STACK-FIFO
+
+ STACK MECHANISM
+
+ video games
+ cartoon-animation graphics
+ web servers
+
+ A corresponding exception will be thrown
+ try{
+
+ }
+ catch(Exception e){
+
+ }
+
+ #Multitasking or Multiprocessing
+
+ MULTITASKING
+ -processes are heavy weight
+ -seperate address spaces
+ -costly
+
+ #Multithreading
+-processes are light weight
+-same address spaces
+-cheaper
+
+1) by extending thread class
+2) by implementing runnable interface
+
+Thread class-->
+public void run(),
+public void start()
+
+#Thread Scheduler:
+Decides which thread to be moved from Runnable to Running
+
+IllegalArgumentException
